@@ -1,0 +1,43 @@
+<!doctype html>
+<html> 
+ <head> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link rel="stylesheet" type="text/css" href="signup.css"> 
+ </head> 
+ <body> 
+  <div> 
+   <center> 
+    <h1>SIGN UP</h1> 
+   </center> 
+   <center> 
+    <form onclick="validate()" method="POST"> 
+     <input type="text" name="name" id="name" placeholder="FULL NAME" class="border" required> 
+     <br>  
+     <br>  
+     <input type="text" placeholder="E-MAIL" name="email" id="email" class="border" required> 
+     <br> 
+     <br>  
+     <input type="password" placeholder="PASSWORD" name="password" id="password" class="border" required> 
+     <br> 
+     <br> 
+     <input type="text" placeholder="PHONE NUMBER" name="phone" id="phone" class="border" maxlength="10" required> 
+     <br> 
+     <label >Specialization:</label>
+     <br>
+     <select id="Specialization" name="Specialization" required>
+        <option value="NULL" name="NULL">--SELECT--</option>
+        <option value="generalcheckup" name="generalcheckup">GENERAL CHECK UP</option>
+        <option value="kidney" name="kidney">KIDNEY PROBLEM</option>
+        <option value="eye" name="eye">EYE CHECK UP</option>
+        <option value="heart" name="heart">HEART DISEASE</option>
+        
+  </Select>
+     <br> 
+     <input type="submit" name="submit" id="submit" > 
+     <center> 
+     </center> 
+    </form> 
+   </center> 
+  </div> 
+ </body>
+</html>

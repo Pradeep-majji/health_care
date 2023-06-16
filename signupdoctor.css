@@ -1,0 +1,46 @@
+.border{
+    border-style:inset;
+    border-radius:12px;
+    padding:5px;
+   }
+  h1{
+    text-shadow:2px 2px red;
+     background-color:linear-gradient(black,blue);
+  }
+  input[type=text], select
+   { width: 50%; 
+   padding: 12px 20px; 
+   margin: 8px 0; 
+   display: inline-block; 
+   border: 1px solid #ccc; 
+   border-radius: 4px;
+    box-sizing: border-box; } 
+  input[type=password],select { 
+    width: 50%; 
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: 1px solid #ccc;
+     border-radius: 4px;
+      box-sizing: border-box;
+    }
+   input[type=submit]{
+    width: 50%;
+     background-color: #e8922a;
+      color: white; 
+      padding: 14px 20px; 
+      margin: 8px 0; 
+      border: none; 
+      border-radius: 4px; 
+      cursor: pointer;
+   } 
+  input[type=submit]:hover{ 
+    background-color:#0cb5cf;
+ }
+
+body{
+    background-image: url("signupdoctor.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
